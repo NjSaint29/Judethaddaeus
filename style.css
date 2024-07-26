@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
 body{
-    background-image: url('bgd.jpg');
+    background-image: url('img/bgd.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 5px;
@@ -48,7 +50,8 @@ header {
   }
 
   .intro {
-    background-image: url('BG.jpg');
+    backdrop-filter: blur(5px);
+    background-image: url('img/BG.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -59,6 +62,14 @@ header {
   
   .intro-text {
     flex: 1;
+    
+  }
+  .intro-text input{
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    backdrop-filter: blur(2px);
+    border-radius: 30px;
   }
   
   .intro-image {
