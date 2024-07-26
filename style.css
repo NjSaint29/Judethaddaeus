@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 
 body{
-    background-image: url('img/bgd.jpg');
+    background-image: url('download.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -14,7 +14,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #fffc3981; /* Optional background color */
+    background-color: #181818a8; /* Optional background color */
   }
   
   .logo img {
@@ -34,13 +34,14 @@ header {
   nav a {
 
     text-decoration: none;
-    color: #000000;
+    color: #fffefe;
     font-size: larger;
+    font-weight: 4px;
   }
   nav a:hover{
     padding: 3px;
     text-transform: uppercase;
-    color: rgb(7, 6, 10);
+    color: rgb(250, 248, 255);
     font-size: larger;
     backdrop-filter: blur(2px);
     box-shadow: 5px 2px 10px rgb(41, 40, 40);
@@ -61,9 +62,12 @@ header {
   
   .intro-text {
     flex: 1;
+
+    
     
   }
   .intro-text input{
+    margin-top: 50px;
     width: 100px;
     height: 50px;
     background-color: transparent;
@@ -96,6 +100,13 @@ header {
     background-color: #e0ebff44;
     width: 300px;
     text-align: center;
+    h3{
+      color: rgb(255, 255, 255);
+      font-size: larger;
+    }
+    p{
+      color: #fff7f7;
+    }
    
   }
   
@@ -115,15 +126,25 @@ header {
     border-radius: 5px;
     input{
         margin-left: 20%;
-        box-shadow:0px 2px 25px #b6b0b0 ;
+        box-shadow:0px 2px 25px #777474 ;
         border-radius: 13px;
         width: 90px;
+        background-color: gray;
 
     }
     input:hover{
         background-color: #b6b1b1;
         color: rgb(40, 40, 54);
         font-size: larger;
+    }
+    h4{
+      color: #fff7f7;
+      font-size: larger;
+      padding-left: 10px;
+    }
+    p{
+      padding-left: 10px;
+      color: #ffffff;
     }
   }
   
@@ -140,9 +161,12 @@ header {
     height: 200px;
     text-align: center;
     padding: 30px;
-    background-color: #dddcdc;
+    background-color: #00000050;
   }
-  
+  footer p{
+    color: white;
+
+  }
   .contact {
     margin-bottom: 20px;
   }
