@@ -85,6 +85,7 @@ header {
     background-color: #e0ebff44;
     width: 300px;
     text-align: center;
+   
   }
   
   .scroll-list {
@@ -100,6 +101,7 @@ header {
     margin: 5px;
     backdrop-filter: blur(10px);
     background-color: #dddcdc38;
+    border-radius: 5px;
     input{
         margin-left: 20%;
         box-shadow:0px 2px 25px #b6b0b0 ;
