@@ -264,7 +264,7 @@ form input:active{
 
  }
 
- @media (max-width:400px){
+ @media (max-width:768px){
   .form{
     margin: 20px;
     width: 90%;
