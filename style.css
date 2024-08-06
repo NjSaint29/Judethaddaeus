@@ -8,13 +8,13 @@ body{
 
 
 
-header {
+header .nav {
     
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #181818a8; /* Optional background color */
+    background-color: #7c3030a8; /* Optional background color */
   }
   
   .logo img {
