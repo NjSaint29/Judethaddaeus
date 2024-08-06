@@ -263,3 +263,22 @@ form input:active{
   
 
  }
+
+ @media (max-width:400px){
+  .form{
+    margin: 20px;
+    width: 90%;
+    margin-top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  form{
+    width: 100%;
+    padding: 30px;
+  }
+  form input{
+    width: auto;
+
+  }
+  
+ }
