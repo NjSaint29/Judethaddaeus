@@ -12,9 +12,13 @@ body {
 
 }
 
-.header-container {
-  padding: 0 50px 0 50px;
+.containerx {
+  width: 60%;
+  padding: 0 auto 0 auto;
+  margin: 0 auto 0 auto;
   background-color: black;
+  display: flex;
+  flex-flow: column wrap;
 }
 
 .header {
@@ -62,23 +66,36 @@ nav img {
 
 .main-contain {
   width: 100%;
-  padding: 0 50px 0 50px;
+  display: flex;
   justify-items: center;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 
 }
 
 .me {
   display: flex;
   width: 100%;
-  flex-flow: row wrap;
+  flex-flow: row wrap-reverse;
   justify-content: space-between;
+  border : solid;
 
+}
+.pic{
+ 
+  float: right;
+  border: solid;
+}
+.pic img{
+  width:10rem;
+  
+ 
 }
 
 .content {
   align-content: center;
   text-align: left;
+  border: solid;
+  width: 50%;
 
 }
 
@@ -242,6 +259,7 @@ form {
 form .btn {
   display: flex;
   justify-content: center;
+  align-items: center;
 
 }
 
@@ -255,6 +273,14 @@ form .btn {
 .btn button:hover {
   background-color: #080707;
   color: white;
+}
+#lable{
+  width: 100%;
+  display: flex;
+  color: white;
+  justify-content: center;
+  font-weight: 700;
+
 }
 
 form input {
@@ -277,8 +303,20 @@ form input:active {
 
 }
 
+#submit_redir{
+  padding-left: 20px;
+  font-size: medium;
+  text-decoration: none;
+  color:white;
+  font-weight: 600;
+}
+#submit_redir:hover{
+color: rgb(4, 231, 4);
+text-decoration: underline;
+}
+
 .container {
-  width: 95%;
+  width:60%;
   height: 100%;
   margin: 0 auto 0 auto;
   display: flex;
