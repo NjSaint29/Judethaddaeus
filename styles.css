@@ -1,0 +1,103 @@
+/* CSS (styles.css) */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(assets/images/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #F5F5F5;
+}
+
+.navbar {
+    background-image: url(assets/images/bg2.jpg);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: #fff;
+    margin-right: 20px;
+}
+
+.home-section {
+    background-image: url('/assets/images/bg1.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.projects-section {
+    padding: 5rem 0;
+}
+
+.project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.experience-section {
+    padding: 5rem 0;
+    background-color: #f7f7f74f;
+}
+
+.contact-section {
+    padding: 5rem 0;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media li {
+    margin-right: 20px;
+}
+
+.social-media a {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.footer {
+    background-color: #f7f7f74f;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    clear: both;
+}
+#Profile{
+    border-radius: 50%;
+}
+
+
+h1 {
+    color: #333333; /* Primary text color */
+}
+a {
+    color: #007BFF; /* Link color */
+}

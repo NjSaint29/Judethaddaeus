@@ -1,127 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-
+    <title>NSOSAH JUDE THADDAEUSE</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="containerx">
-        <div class="header">
-            <div class="logo">
-                <img src="logo.png" alt="logo">
-            </div>
-            <div class="nav">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="project.html">Project</a></li>
-                    <li><a href="">About me</a></li>
-                </ul>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">NJ</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../includes/projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../includes/experience.html">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../includes/contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="fw-bold">NSOSAH JUDE</h1>
+                    <h1 class="fw-bold ">THADDAEUSE</h1>
+                    <p>Web Developer | Graphic Designer | Computer Science Student</p>
+                    <button class="btn btn-primary btn-medium">Hire Me</button>
+                </div>
+                <div class="col-md-6">
+                    <img src="/assets/images/me.png" alt="Profile Picture" class="img-fluid" id="Profile">
+                </div>
             </div>
         </div>
-    </div>
-    <div class="containerx">
-    <div class="main-contain">
-        <div class="me">
-            <div class="content">
-                <h4>
-                    Hello... i am I am NSOSAH JUDE THADDAEUS
-                </h4>
-                <p>
-                 I am thrilled to share with you a little about myself.
-                </p>
-                <br>
-                <button>GitHub</button>
-            </div>
-            <div class="pic">
-                <img src="img/me.png" alt="">
-            </div>
+    </section>
+    <br>
+    <br>
+    <hr>
+    <!-- Experience Section -->
+    <section id="experience" class="bg-light">
+        <div class="container">
+            <h1 class="fw-bold">Experience</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Work Experience</h3>
+                        <ul>
+                            <li>brief description</li>
+                            <li>brief description</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="fw-bold">Internships</h3>
+                        <ul>
+                            <li>brief description</li>
+                            <li>brief description</li>
+                        </ul>
+                    </div>
+                </div>
         </div>
-    </div>
-        <section class="tiles">
-            <div class="tile">
-                <h3>Pixel Labs</h3>
-                <p>Very good</p>
-            </div>
-            <div class="tile">
-                <h3>Photoshop</h3>
-                <p>good</p>
-            </div>
-            <div class="tile">
-                <h3>Ilustrator</h3>
-                <p>good</p>
-            </div>
-            <div class="tile">
-                <h3>Maintenance</h3>
-                <p>good</p>
-        </section>
-    
-        <section class="scroll-list">
-            <div class="list-item">
-                <img src="img/ELLAS.jpg" alt="Image 1" />
-                <div class="list-item-text">
-                    <h4>ELLA'S Shopping</h4>
-                    <p>Eemblem design for a local fashion shop.</p>
-                    <a href="img/ELLAS.jpg"><input type="button" value="View"></a>
-                </div>
-            </div>
-            <div class="list-item">
-                <img src="img/CDG.jpg" alt="Image 1" />
-                <div class="list-item-text">
-                    <h4>Dance Logo</h4>
-                    <p>Emblem design for dance group.</p>
-                    <a href="img/cdg.jpg"><input type="button" value="View"></a>
-                </div>
-            </div>
-            <div class="list-item">
-                <img src="img/REDZOE.png" alt="Image 1" />
-                <div class="list-item-text">
-                    <h4>Redzone</h4>
-                    <p>Red zone bacdrop</p>
-                    <a href="img/REDZOE.png"><input type="button" value="View"></a>
-                </div>
-    
-            </div>
-            <div class="list-item">
-                <img src="img/YAPLACE.png" alt="Image 1" />
-                <div class="list-item-text">
-                    <h4>Yaplace</h4>
-                    <p>Online Shop logo</p>
-                    <a href="img/YAPLACE.png"><input type="button" value="View"></a>
-                </div>
-            </div>
-            <div class="list-item">
-                <img src="img/el.jpg" alt="Image 1" />
-                <div class="list-item-text">
-                    <h4>Business card</h4>
-                    <p>Business card design</p>
-                    <a href="img/el.jpg"><input type="button" value="View"></a>
-                </div>
-            </div>
-        </section>
-    
-        <section class="space">
-    
-        </section>
-    
-    
-    
-    
-        <footer>
-            <div class="contact">
-                <p>Nsosah Jude | njudethaddaeus@gmail.com
-                    | +237-676-943-780 |
-                    Bigmankon, Bamenda</p>
-            </div>
-            <div class="copyright">
-                <p>&copy; Nsosah Jude 2024</p>
-            </div>
-    
-        </footer>
+    </section>
 
-    </div>
 
+
+
+
+
+    <!-- Footer Section -->
+    <footer class="bg-light">
+        <div class="container">
+            <p>&copy; 2024 NSOSAH JUDE THADDAEUSE</p>
+            <ul class="social-media">
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-github"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+    <script src="/script.js"></script>
 </body>
+
 </html>
