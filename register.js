@@ -1,4 +1,3 @@
-
 import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.12.5/firebase-auth.js";
 
 // Import the functions you need from the SDKs you need
